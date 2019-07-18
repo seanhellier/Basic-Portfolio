@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <!-- this is where i link to the stylesheet -->c
+  <!-- this is where i link to the stylesheet -->
   <head>
     <meta charset="utf-8" />
 
     <title>My Portfolio</title>
-
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
 
+
+
   <body>
-    <!-- header / nav -->
-
     <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Sean Leif Hellier</a>
-  
-        <nav>
-          <!-- <div class="containerls"> -->
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </div>
-          </div>
-          
-        </nav>
-      </header>
+      <div class="container">
+          <a href="index.html" id="logo">Sean Leif Hellier</a>
 
-    <!-- Main and aside -->
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main   -->
     <div id="main-container" class="container">
-        <section class="main-container">
-        <h1>Contact</h1>
+      <section class="main-section">
+        <h1>contact-form</h1>
 
         <form id="contact-form">
-          <ul>
-            <li>
-              <label for="name">Name</label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="John Smith"
-                required="required"
-              />
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                placeholder="example@somewhere.com"
-                required="required"
-              />
-            </li>
-
+            <ul>
               <li>
-                  <label for="message">Message</label>
-                  <textarea id="message" name="message" required="required">
-                  </textarea>
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="John Smith"
+                  required="required"
+                />
               </li>
-          </ul>
-          <input type="submit" name="submit">
-        </form>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="example@somewhere.com"
+                  required="required"
+                />
+              </li>
+  
+                <li>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required="required">
+                    </textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
+          </form>  
       </section>
-    </div>
 
     <!-- footer -->
     <footer>
